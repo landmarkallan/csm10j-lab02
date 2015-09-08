@@ -55,10 +55,8 @@ public class Ch3_PrExercise1
 		
 		String first_name, last_name;
 		
-		Scanner inFile =
-			new Scanner(new FileReader("C:\\Users\\Mark\\Desktop\\inData.txt"));
-		PrintWriter outFile =
-			new PrintWriter("C:\\Users\\Mark\\Desktop\\outData.txt");
+		Scanner inFile = new Scanner(new FileReader("inData.txt"));
+		PrintWriter outFile = new PrintWriter("outData.txt");
 			
 		// prompting the user that the 'inData.txt' and 'outData.txt' files are
 		// 	(if needed: created and) opened, and are being read by the program:
