@@ -8,19 +8,10 @@
 
 // Packages~Libraries~Modules:
 
-import java.io.*;
-import java.util.*;
-
-// import java.io.FileReader;
-// import java.io.PrintWriter;
-// import java.io.FileNotFoundException;
-// import java.util.Scanner;
-
-/*
-I had to trouble shoot a java error: ~ "missing symbol for the
-'throw FileNotFoundException' Error", caused by not using the
-' import java.io.* '
-*/
+import java.util.Scanner;
+import java.io.FileReader;
+import java.io.PrintWriter;
+import java.io.FileNotFoundException;
 
 public class Ch3_PrExercise1
 {
